@@ -7,6 +7,7 @@ import feign.Param;
 import feign.RequestLine;
 import feign.gson.GsonDecoder;
 
+
 public interface NationalizeClient {
 
     @RequestLine("GET /?name={name}")
