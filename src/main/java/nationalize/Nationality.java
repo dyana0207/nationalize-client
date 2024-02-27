@@ -13,13 +13,10 @@ public class Nationality {
     @SerializedName("country")
     private List<Country> countries;
 
-
     @lombok.Data
     public static class Country {
 
         private String countryId;
         private float probability;
-
     }
-
 }
